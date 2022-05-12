@@ -64,7 +64,7 @@ export class ExtendedAnnotationsReader extends BasicAnnotationsReader {
             return undefined;
         }
 
-        const jsDocTag = jsDocTags.find((tag) => tag.name === "asType");
+        const jsDocTag = jsDocTags.find((tag) => tag.name === "asType" || tag.name == "TJS-type");
         if (!jsDocTag) {
             return undefined;
         }

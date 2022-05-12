@@ -29,7 +29,7 @@ const args = new Command()
     .option("--no-ref-encode", "Do not encode references")
     .option("-o, --out <file>", "Set the output file (default: stdout)")
     .option(
-        "--validation-keywords [value]",
+        "-k, --validation-keywords [value]",
         "Provide additional validation keywords to include",
         (value: string, list: string[]) => list.concat(value),
         []

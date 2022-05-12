@@ -55,6 +55,9 @@ export class BasicAnnotationsReader implements AnnotationsReader {
 
         // New since draft 2019-09:
         "deprecated",
+
+        // Byrne
+        "allOf",
     ]);
 
     public constructor(private extraTags?: Set<string>) {}
