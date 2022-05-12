@@ -1,6 +1,6 @@
 /*.ts
 coverage/
-dist/
+#dist/
 node_modules/
 !auto.config.ts
 /.idea/
